@@ -39,7 +39,7 @@ class IntentClassifier:
 
         # Model configuration
         self.model_id = os.getenv('BEDROCK_MODEL_ID', 'anthropic.claude-3-5-sonnet-20241022-v2:0')
-        self.max_tokens = int(os.getenv('MAX_TOKENS', '500'))
+        self.max_tokens = int(os.getenv('MAX_TOKENS', '10'))
         self.temperature = float(os.getenv('TEMPERATURE', '0.0'))
 
         # Build system prompt

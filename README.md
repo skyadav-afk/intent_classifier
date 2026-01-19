@@ -1,5 +1,5 @@
 # Shailendra_Intent_Analysis
-
+CUSTOMER_IMPACT enrichement dalna he 
 ## Intent Classifier for Conversational SLO Manager
 
 An intelligent intent classification system that uses AWS Bedrock to classify user queries into specific intents and determine the required data sources for answering observability and SRE questions.
